@@ -7,7 +7,7 @@ on topics of social media posts.
 Usage:
     Execute the script from the command line using the following command:
 
-    python3 topic_linguistic.py -g grid.gpkg -p posts.gpkg -t 'topic' -ge 'geometry' -o output.shp
+    python3 topic_linguistic.py -g grid.gpkg -p posts.gpkg -l 'language' -ge 'geometry' -o output.shp
 
 Arguments:
     -g/--grid: Path to the file with grid (square, hexagon etc.)
